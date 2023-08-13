@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            border: 1px solid black;
+            justify-content: center;
+            align-content: center;
+            height: 700px;
+        }
+
+        .quiz {
+            background-color: aqua;
+            display: grid;
+            justify-content: space-around;
+            align-content: center;
+            border: 1px solid blac;
+        }
+        .questionArea {
+            border: 1px solid black;
+            padding: 10px 300px;
+            display: grid;
+            /* width: 500px; */
+            
+        }
+        .answerArea {
+            background-color: yellow;
+            padding: 10px 10px;
+            display: grid;
+        }
+        .ans-btn{
+            padding: 10px 10px;
+            margin: 10px 0px;
+            cursor: pointer;
+
+        }
+        #next {
+            width: 80px;
+            height: 40px;
+            color: white;
+            background-color: black;
+            border-radius: 30px;
+            cursor: pointer;
+            display: none;
+        }
+        button:disabled{
+            cursor: no-drop;
+        }
+        .correct {
+            background-color: green;
+            color: white;
+
+
+        }
+        .incorrect {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="main">
+
+        <div class="quiz">
+            <!-- <div class="questionArea">
+                <h3>QuestionArea</h3>
+            </div>
+            <div class="answerArea">
+                <button class="ans-btn">A</button>
+                <button class="ans-btn">B</button>
+                <button class="ans-btn">C</button>
+                <button class="ans-btn">D</button>
+
+
+            </div> -->
+        </div>
+        <Button id="next">Next</Button>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
